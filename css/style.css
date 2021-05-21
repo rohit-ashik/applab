@@ -18,7 +18,7 @@ p{
    
     font-size: 16px;
     color: #616368;
-    margin: 32px 0px;
+    
 }
 
 /********************************************
@@ -503,4 +503,148 @@ p{
     font-size: 16px;
     font-weight: bold;
     border-radius: 25px;
+}
+
+
+
+/********************************************
+          service-section-desigon
+********************************************/
+.service-section {
+    width: 100%;
+    padding: 80px 0px ;
+    
+}
+.service-title{
+    text-align: center;
+}
+.service-btn{
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 30px;
+    border: 1px solid #a3a3a3;
+}
+
+.service-section .service-title .service-btn button{
+    font-size: 16px;
+    font-weight: 600;
+    color: #616368;
+    padding: 12px 48px;
+    background-color: #2500f9;
+    border: none;
+    border-radius: 30px;
+}
+ #first-btn{
+   
+    background-color: #2500f9;
+    color: #fff;
+}
+#second-btn{
+   
+    background-color: transparent;
+    
+}
+
+#first-btn:focus{
+    outline: none;
+    box-shadow: none;
+    background-color: #2500f9;
+    color: #fff;
+    
+ }
+ #second-btn:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: #2500f9;
+    color: #fff;
+    
+} 
+
+
+
+/* 
+.button-design-one{
+    background-color: transparent;
+    color: #616368;
+}
+.button-design-two{
+    background-color: #2500f9;
+    color: #fff;
+} */
+
+/********************************************
+          service-section-desigon plan design
+********************************************/
+.plan-design{
+    margin-top: 56px;
+    width: 100%;
+    
+}
+.service-last{
+    align-self: flex-end;
+}
+.plan-1{
+    background-color: #ffffff;
+    width: 60%;
+    margin-left: 40%;
+    text-align: center;
+    padding: 0px 0px 24px 0px;
+    box-shadow: 10px 8px 15px lightgray;
+}
+.plan-2{
+    background-color: #ffffff;
+    width: 60%;
+    text-align: center;
+    margin-left: 5%;
+    padding: 0px 0px 24px 0px;
+    box-shadow: 10px 8px 15px lightgray;
+
+}
+.plan-header{
+    background: linear-gradient(to bottom, #fefefe 0%, #f5f7f9 69%);
+    padding-top: 32px;
+    padding-bottom: 16px;
+
+}
+.plan-header h2{
+    font-size: 60px;
+    font-weight: 600;
+}
+.plan-header h2 span{
+    font-size: 18px;
+    color: #616368;
+}
+.plan-header h4{
+    color: #242f51;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 16px;
+}
+.plan-body{
+    width: 100%;
+}
+.plan-body p{
+    padding:8px 0px;
+}
+/* .plan-1:hover, .plan-2:hover{
+    box-shadow: 0 0 8px 5px rgb(207, 207, 207);
+    transition: .7s ease;
+    width: 62%;
+} */
+/* .plan-1:hover .plan-header{
+    transform: scale(1.1);
+    transition: .7s ease;
+    box-shadow: 0 0 10px 2px gray;
+}
+.plan-1:hover .plan-body{
+    transform: scale(1.1);
+    transition: .7s ease;
+}
+.plan-1:hover .plan-footer{
+    transform: scale(1.1);
+    transition: .7s ease;
+} */
+
+.plan-footer p{
+    margin-top: 16px ;
 }

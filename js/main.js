@@ -169,6 +169,45 @@ window.addEventListener('scroll' , function (){
 
 
 
+function btnStyleTwo(){
+    var myBtn = document.querySelector("#first-btn");
+    myBtn.style.color = "#616368";
+    myBtn.style.backgroundColor = "transparent";
+    myBtn.style.transition = ".9s ease";
+    var serviceDesign = document.querySelector("#plan2");
+    serviceDesign.style.boxShadow = "0 0 8px 5px rgb(207, 207, 207)";
+    serviceDesign.style.transition = ".9s ease";
+    serviceDesign.style.transform = "scale(1.1)";
+    var serviceDesignTwo = document.querySelector("#plan1");
+    serviceDesignTwo.style.boxShadow = "10px 8px 15px lightgray";
+    serviceDesignTwo.style.transform = "none";
+    
+    
+}
+
+function btnStyleOne(){
+    var myBtn = document.querySelector("#first-btn");
+    myBtn.style.color = "#fff";
+    myBtn.style.backgroundColor = "#2500f9"
+    myBtn.style.transition = ".9s ease"
+    var myBtnTwo = document.querySelector("#second-btn");
+    myBtnTwo.style.transition = ".9s ease"
+    var serviceDesign = document.querySelector("#plan1");
+    serviceDesign.style.boxShadow = "0 0 8px 5px rgb(207, 207, 207)";
+    serviceDesign.style.transition = ".9s ease";
+    serviceDesign.style.transform = "scale(1.1)";
+    var serviceDesignTwo = document.querySelector("#plan2");
+    serviceDesignTwo.style.boxShadow = "10px 8px 15px lightgray";
+    serviceDesignTwo.style.transform = "none";
+}
+
+
+
+
+
+
+
+
   
         
 
