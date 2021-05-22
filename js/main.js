@@ -17,6 +17,21 @@ $(document).ready(function () {
     
 });
 
+$(document).ready(function () {
+    $(".feedback-right .owl-carousel").owlCarousel({
+        items:1,
+        loop:true,
+        nav:true,
+        dots:true,
+        autoplay:true,
+        autoplaySpeed:1000,
+        smartSpeed:1500,
+        autoplayHoverPause:true,
+        margin:30
+    });
+
+    
+});
 // $(document).ready(function () {
 //         $(".reveiw-section .owl-carousel").owlCarousel({
 //             items:3,
