@@ -217,6 +217,11 @@ function btnStyleOne(){
 }
 
 
+function newStyle(){
+    var currentBtn = document.querySelector(".accordion-button::after");
+    currentBtn.style.backgroundImage = "url('https://img.icons8.com/android/24/000000/minus.png')" ;
+}
+
 
 
 

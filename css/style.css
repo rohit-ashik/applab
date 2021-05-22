@@ -793,3 +793,103 @@ p{
     top: 90%;
 }
 
+
+
+
+
+/********************************************
+         accordion-section-carousel
+********************************************/
+.accordion-section{
+    width: 100%;
+    padding: 200px 0px;
+}
+.accordion-title{
+    width: 100%;
+    text-align: center;
+}
+.accordion-title p{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.accordion-item{
+    margin-top: 16px;
+    background-color: #f5f7fa;
+    padding: 24px;
+}
+.accordion-header{
+    padding: 4px 24px !important;
+    color: #242f51 !important;
+    font-weight: 600 !important; 
+    font-size: 20px !important;
+}
+.accodrion-button {
+    color: #242f51 !important;
+    font-weight: 600 !important; 
+    font-size: 20px !important;
+    
+}
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0px !important;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    background-color: #f5f7fa !important;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+}
+.accordion-body{
+    background-color: #f5f7fa !important;
+}
+button.accordion-button.collapsed{
+    color: #242f51 !important;
+    font-weight: 600 !important; 
+    font-size: 20px !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+button.accordion-button{
+    color: #242f51 !important;
+    font-weight: 600 !important; 
+    font-size: 20px !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #f5f7fa !important;
+    outline: 0;
+    border: none !important;
+    /* box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%); */
+    box-shadow: none !important;
+}
+div.accordion-body{
+    font-size: 16px !important;
+    color: #616368 !important;
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url("https://img.icons8.com/android/24/000000/plus.png") !important; 
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+
+/* .accordion-button.collapsed{
+    
+    background-image: url("https://img.icons8.com/android/24/000000/minus.png") !important; 
+    
+} */
+
+
