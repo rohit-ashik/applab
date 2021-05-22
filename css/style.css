@@ -802,7 +802,7 @@ p{
 ********************************************/
 .accordion-section{
     width: 100%;
-    padding: 200px 0px;
+    padding: 80px 0px;
 }
 .accordion-title{
     width: 100%;
@@ -893,3 +893,94 @@ div.accordion-body{
 } */
 
 
+
+
+
+/********************************************
+         download-section
+********************************************/
+
+.download-section{
+   padding: 0px 0px 80px 0px;
+    width: 100%;
+    border-top: 1px solid #dbdbdb;
+}
+.dis-titles h2{
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 40px;
+}
+.down-right{
+    padding-top: 40px;
+    position: relative;
+}
+.down-right img{
+    position: absolute;
+    margin-left: 100px;
+}
+.dis-titles p{
+    margin: 24px 0px;
+}
+
+
+
+/********************************************
+         footer-section-carousel
+********************************************/
+.footer-section{
+    width: 100%;
+    background-color: #001D38;
+    margin-top: -30px;
+    padding-bottom: 80px;
+}
+.footer-img{
+    text-align: center;
+    padding: 80px 0px 40px 0px;
+}
+.footer-img a{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #feaa25;
+}
+.footer-img a span{
+    color: #fff;
+}
+.options ul{
+    text-align: center;
+}
+.options ul li{
+    display: inline-block;
+    padding: 0px 16px;
+}
+.options ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+
+.social ul{
+    text-align: center;
+}
+.social ul li{
+    display: inline-block;
+    padding: 40px 8px 60px 0px;
+}
+.social ul li a i{
+    text-decoration: none;
+    font-size: 16px;
+    color: #a3a3a3;
+}
+.social ul li a i:hover{
+    transition: .9s ease-in;
+    color: #fff;
+    transform: rotate(360deg); 
+}
+.footer-main p{
+    font-size: 14px;
+    color: #a3a3a3;
+    text-align: center;
+    margin-bottom: 40px;
+}
