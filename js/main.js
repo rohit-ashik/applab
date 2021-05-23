@@ -3,15 +3,29 @@
 ********************************************/
 $(document).ready(function () {
     $(".slider-section .owl-carousel").owlCarousel({
-        items:5,
+        items:1,
         loop:true,
-        nav:true,
+        nav:false,
         dots:true,
         autoplay:true,
         autoplaySpeed:1000,
         smartSpeed:1500,
         autoplayHoverPause:true,
-        margin:30
+        margin:30,
+        responsive:{
+                        0:{
+                            items:1
+                        },
+                        600:{
+                            items:3
+                        },
+                        800:{
+                            items:3
+                        },
+                        1000:{
+                            items:5
+                        }
+                    }
     });
 
     
