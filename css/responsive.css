@@ -59,7 +59,12 @@
   */
   
   @media (min-width: 320px) and (max-width: 480px) {
-    
+
+
+
+     /***********************************
+    Common design
+    ***********************************/
     h2{
       font-size: 32px !important;
      
@@ -69,9 +74,14 @@
       font-size: 14px !important;
     }
   
-     /***********************************
+
+
+
+
+    /***********************************
     Navbar
     ***********************************/
+
 
     .navbar-nav{
         background-color: #fff !important;
@@ -111,6 +121,9 @@
     
 
 
+
+
+
     /***********************************
     Banner section
     ***********************************/
@@ -127,14 +140,14 @@
       width: 100%;
       position: none !important;
       }
-  .banner-slogan span{
+    .banner-slogan span{
       background: #e2eaed;
       padding: 10px 60px 10px 45px;
       border-radius: 25px;
       z-index: 1;
       font-size: 18px;
-  }
-  .banner-slogan img{
+    }
+    .banner-slogan img{
       background-color: #feaa25;
       padding: 8px;
       margin-top: 0px;
@@ -142,7 +155,7 @@
       position: none !important;
       z-index: 2;
       top: -20%;
-  }
+    }
      
      .banner-slogan span{
       
@@ -150,11 +163,11 @@
       font-size: 14px;
       margin: 0 auto !important;
 
-  }
-  .banner-slogan img{
+    }
+    .banner-slogan img{
     margin: 0 auto !important;
     margin-left: 10%;
-}
+    }
   
    
     .banner-title h1{
@@ -176,25 +189,29 @@
     .banner-bottom{
       text-align: center;
       margin-top: 32px;
-  }
+    }
 
-  .banner-bottom button{
+    .banner-bottom button{
     padding: 12px 32px;
     
     font-size: 14px !important;
     
-}
-.banner-bottom a{
+    }
+    .banner-bottom a{
+      
+      margin-left: 16px !important;
     
-    margin-left: 16px !important;
-  
-    font-size: 14px !important;
-}
+      font-size: 14px !important;
+    }
 
 
 
 
-/*slider 1 section */
+
+
+ /***********************************
+    Slider One
+    ***********************************/
 
 .banner-content{
   
@@ -209,7 +226,14 @@
   
 }
 
-/* feature section */
+
+
+
+
+
+ /***********************************
+    Feature Section
+  ***********************************/
 .features-title{
   text-align: center !important;
 }
@@ -253,7 +277,15 @@
 }
 
 
-/* smart-jackpot-section  */
+
+
+
+
+ /***********************************
+   smart-jackpot-section
+  ***********************************/
+
+
 .jackpot-left h2{
   text-align: center !important;
   padding: 0px !important;
@@ -282,7 +314,16 @@
   margin-bottom: 50px !important;
   padding-right: 0px !important;
 }
-/* <!--built-section starts HERE--> */
+
+
+
+
+
+
+/***********************************
+ built-section starts HERE-
+***********************************/
+
 .built-right h2{
   width: 95% !important;
   margin: 0 auto !important;
@@ -303,7 +344,15 @@
 }
 
 
-/* <!--ultimate-section starts HERE--> */
+
+
+
+
+
+/***********************************
+ /* <!--ultimate-section starts HERE--> 
+***********************************/
+
 .ultimate-title h2{
   width: 95% !important;
   margin: 0 auto !important;
@@ -342,6 +391,11 @@
 
 
 
+/***********************************
+ service-section starts HERE--> 
+***********************************/
+
+
 .service-title h2{
   margin: 0 auto !important;
   text-align: center !important;
@@ -373,33 +427,123 @@
 
 
 
+/***********************************
+ <!--success-section starts HERE-->
+***********************************/
 
 
-/* <!--success-section starts HERE--> */
 .success-title h2{
   width: 95% !important;
   margin: 0 auto !important;
   text-align: center !important;
+}
+.ultimate-section img{
+  margin-left: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+/********************************************
+          feedback-section-desigon
+********************************************/
+
+.feedback-title h2{
+  margin: 0 auto !important;
+  text-align: center !important;
+  font-size: 32px !important;
+  margin-top: 60px !important;
+}
+.feedback-title p{
+  width: 95%;
+  margin: 0 auto !important;
+  text-align: center !important;
+  margin-top: 32px !important;
+  margin-bottom: 60px !important;
+}
+
+.r-up{
+  text-align: center !important;
+}
+.r-up p{
+  width: 95% !important;
+  margin: 0 auto !important;
+  margin-bottom: 40px !important;
+}
+.photo img{
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+.details{
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+
+
+
+/********************************************
+          feedback-section-carousel
+********************************************/
+
+.feedback-section .owl-carousel .owl-dots  {
+  width: 100%;
+  text-align:center !important;
+  /* position: absolute; */
+  bottom:0%;
+  
+}
+.feedback-section .owl-carousel .owl-nav{
+  display: none !important;
 }
 
 
 
 
 /********************************************
-          service-section-desigon plan design
+          .accordion-section-carousel
 ********************************************/
 
+.accordion-title p {
+  width: 95% !important;
+  margin: 0 auto !important;
+  margin-top: 24px !important;
+  margin-bottom: 24px !important;
+  
+}
+.accordion-item {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+button.accordion-button.collapsed {
+  
+  font-size: 16px !important;
+  
+}
+.accordion-header {
+  padding: 0px !important;
+  
+  font-size: 16px !important;
+}
 
-
-
-
-
-
-
-
-
-
-
+button.accordion-button{
+  
+  font-size: 16px !important;
+  font-family: 'Poppins', sans-serif !important;
+  border: none !important;
+}
+div.accordion-body{
+  font-size: 14px !important;
+  padding: 1rem 0rem !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
 
 
 /********************************************
@@ -407,16 +551,51 @@
 ********************************************/
 
     /**/
-    .down-right img{
+    .download-section{
+      padding: 40px 0px 0 0px !important;
+       
+       
+   }
+    .dis-titles{
+      text-align: center !important;
+    }
+    .dis-titles h2{
+      text-align: center !important;
+    }
+    .dis-titles p{
+      width: 95% !important;
+      margin: 0 auto !important;
+      text-align: center !important;
+      margin-bottom: 40px !important;
+    }
+    .download-section .downloads .row .col-md-6 .dis-titles img{
+      margin-bottom: 16px !important;
+    }
+    .down-rights img{
         
-        margin-left: 0px !important;
+        margin-top: 40px;
     }
 
-
-    .ultimate-section img{
-        margin-left: 0px !important;
-    }
 
     
+
+
+
+/********************************************
+         footer-section-carousel
+********************************************/
+.footer-section{
+ 
+  margin-top: -22px !important;
+}
+.options ul li{
+
+  padding: 0px 8px !important;
+}
+.options ul li a{
+ 
+  font-size: 10px !important;
+  
+}
     
   }
