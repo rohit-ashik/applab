@@ -83,6 +83,7 @@ p{
         /* background-color:transparent;
         border:1px solid #242F51!important; */
         border-radius: 0px !important;
+        border: none !important;
     }
     .navbar-toggler:focus{
         outline: none !important;
@@ -97,7 +98,7 @@ p{
         font-size:1.25rem;
         line-height:1;
         background-color:transparent;
-        border:1px solid #ffffff;
+        /* border:1px solid #ffffff; */
         border-radius: 3px;
         outline: none;
         box-shadow: none;
@@ -575,6 +576,16 @@ p{
     font-weight: bold;
     border-radius: 25px;
 }
+.see-all-btn-one button {
+    padding: 12px 56px;
+    border: none;
+    outline: none;
+    background: #2500f9;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+  }
 
 
 
