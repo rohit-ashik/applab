@@ -50,6 +50,22 @@
   @media (min-width: 481px) and (max-width: 767px) {
     
     /* CSS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
   }
   
@@ -92,16 +108,17 @@
         color: black  !important;
     }
     .navbar-toggler{
-        padding:.25rem .50rem;
+        padding-right: 0px !important;
         font-size:1.25rem;
         line-height:1;
         background-color:transparent;
-        border:1px solid #2500f9;
-        border-radius: 3px;
+        /* border:1px solid #242F51 !important;
+        border-radius: 3px; */
     }
     .navbar-toggler:focus,.navbar-toggler:hover{
         text-decoration:none;
-        padding:.25rem .50rem;
+        padding-right: 0px !important;
+        /* padding:.25rem .50rem; */
         font-size:1.25rem;
         line-height:1;
         background-color:transparent;
@@ -142,10 +159,10 @@
       }
     .banner-slogan span{
       background: #e2eaed;
-      padding: 10px 60px 10px 45px;
+      padding: 8px 60px 8px 45px;
       border-radius: 25px;
       z-index: 1;
-      font-size: 18px;
+      font-size: 16px;
     }
     .banner-slogan img{
       background-color: #feaa25;
@@ -154,7 +171,7 @@
       border-radius: 50%;
       position: none !important;
       z-index: 2;
-      top: -20%;
+      top: -22%;
     }
      
      .banner-slogan span{
