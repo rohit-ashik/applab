@@ -1116,6 +1116,7 @@ div.accordion-body{
     }
     .dis-titles h2{
       text-align: center;
+     font-size: 30px !important;
     }
     .dis-titles p{
       width: 95% !important;
