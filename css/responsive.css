@@ -31,6 +31,31 @@
   .feedback-left img{
     margin-top: 40px !important;
   }
+      /********************************************
+          feedback-section-carousel
+********************************************/
+
+.feedback-section .owl-carousel .owl-dots  {
+  width: 100%;
+  text-align:left ;
+  /* position: absolute; */
+  bottom:0%;
+  
+}
+.feedback-section .owl-carousel .owl-nav{
+  display: block !important;
+}
+.feedback-section .owl-carousel .owl-nav .owl-prev {
+  left: 80%;
+  top: 94%;
+  
+  
+}
+
+.feedback-section .owl-carousel .owl-nav .owl-next {
+  right: 0%;
+  top: 94%;
+}
   
   }
   
@@ -77,6 +102,32 @@
     .feedback-left img{
       margin-top: 40px !important;
     }
+    /********************************************
+          feedback-section-carousel
+********************************************/
+
+.feedback-section .owl-carousel .owl-dots  {
+  width: 100%;
+  text-align:left ;
+  /* position: absolute; */
+  bottom:0%;
+  
+}
+.feedback-section .owl-carousel .owl-nav{
+  display: block !important;
+}
+.feedback-section .owl-carousel .owl-nav .owl-prev {
+  left: 75%;
+  top: 94%;
+  
+  
+}
+
+.feedback-section .owl-carousel .owl-nav .owl-next {
+  right: 0%;
+  top: 94%;
+}
+
     
   }
   
@@ -131,7 +182,6 @@
     /***********************************
  ultimate-section starts HERE-
 ***********************************/
-
 
  
 
@@ -966,6 +1016,10 @@
   text-align: center;
   margin: 0 auto ;
 } */
+.details{
+  text-align: left;
+  margin: 0;
+}
 
 
 
@@ -975,13 +1029,13 @@
 
 .feedback-section .owl-carousel .owl-dots  {
   width: 100%;
-  text-align:center ;
+  text-align:left ;
   /* position: absolute; */
   bottom:0%;
   
 }
 .feedback-section .owl-carousel .owl-nav{
-  display: none !important;
+  display: none ;
 }
 
 
