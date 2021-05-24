@@ -86,6 +86,23 @@
   @media (min-width: 1025px) and (max-width: 1200px) {
     
     /* CSS */
+    .menu-design ul li a::before{
+      content: '';
+      transition: .3s ease-in;
+      height: 3px;
+      background-color: #2500f9;
+      
+      width: 0%;
+      position: absolute;
+      bottom: 0%;
+      left: 0%;
+      
+  }
+  .menu-design ul li a:hover::before{
+      width: 100%;
+      transition: .3s ease-in;
+  }
+
     
         .dis-titles {
           margin-bottom: 24px !important;
@@ -158,6 +175,23 @@
   @media (min-width: 768px) and (max-width: 1024px) {
     
     /* CSS */
+    .menu-design ul li a::before{
+      content: '';
+      transition: .3s ease-in;
+      height: 3px;
+      background-color: #2500f9;
+      
+      width: 0%;
+      position: absolute;
+      bottom: 0%;
+      left: 0%;
+      
+  }
+  .menu-design ul li a:hover::before{
+      width: 100%;
+      transition: .3s ease-in;
+  }
+
     /***********************************
     Banner section
     ***********************************/
@@ -214,11 +248,29 @@
   
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     
-    /* CSS */
+    /* CSS *
+    /
+    
 
 /***********************************
     Banner section
     ***********************************/
+    .menu-design ul li a::before{
+      content: '';
+      transition: .3s ease-in;
+      height: 3px;
+      background-color: #2500f9;
+      
+      width: 0%;
+      position: absolute;
+      bottom: 0%;
+      left: 0%;
+      
+  }
+  .menu-design ul li a:hover::before{
+      width: 100%;
+      transition: .3s ease-in;
+  }
 
     .banner-right img{
       
@@ -313,6 +365,22 @@
   @media (min-width: 581px) and (max-width: 767px) {
     
     /* CSS */
+    .menu-design ul li a::before{
+      content: '';
+      transition: .3s ease-in;
+      height: 3px;
+      background-color: #2500f9;
+      
+      width: 0%;
+      position: absolute;
+      bottom: 0%;
+      left: 0%;
+      
+  }
+  .menu-design ul li a:hover::before{
+      width: 100%;
+      transition: .3s ease-in;
+  }
 
     h2{
       font-size: 50px !important;
@@ -577,6 +645,22 @@
   @media (min-width: 320px) and (max-width: 580px) {
 
 
+    .menu-design ul li a::before{
+      content: '';
+      transition: .3s ease-in;
+      height: 3px;
+      background-color: #2500f9;
+      
+      width: 0%;
+      position: absolute;
+      bottom: 0%;
+      left: 0%;
+      
+  }
+  .menu-design ul li a:hover::before{
+      width: 100%;
+      transition: .3s ease-in;
+  }
 
      /***********************************
     Common design
