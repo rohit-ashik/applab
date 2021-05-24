@@ -3,10 +3,35 @@
   ##Screen = 1281px to higher resolution desktops
 */
 
-@media (min-width: 1281px) {
+@media (min-width: 1201px) {
   
     /* CSS */
+
+    .plan-1, .plan-2{
+      background-color: #ffffff;
+      width: 70%;
+      margin: 0 auto;
+      /* margin-left: 40%; */
+      text-align: center;
+      border: 1px solid rgb(190, 190, 190);
+      /* padding: 0px 0px 24px 0px; */
+      /* box-shadow: 10px 8px 15px lightgray; */
+      margin-top: 60px;
+  }
+  .accordion-title{
+    margin-bottom: 24px !important;
+  }
+  .accordion-item {
+  
+    width: 60% !important;
     
+    margin: 0 auto !important;
+    margin-top: 16px !important;
+  }
+  .feedback-left img{
+    margin-top: 40px !important;
+  }
+  
   }
   
   /* 
@@ -14,9 +39,44 @@
     ##Screen = B/w 1025px to 1280px
   */
   
-  @media (min-width: 1025px) and (max-width: 1280px) {
+  @media (min-width: 1025px) and (max-width: 1200px) {
     
     /* CSS */
+    
+        .dis-titles {
+          margin-bottom: 24px !important;
+        }
+        .plan-1, .plan-2{
+          background-color: #ffffff;
+          width: 70%;
+          margin: 0 auto;
+          /* margin-left: 40%; */
+          text-align: center;
+          border: 1px solid rgb(190, 190, 190);
+          /* padding: 0px 0px 24px 0px; */
+          /* box-shadow: 10px 8px 15px lightgray; */
+          margin-top: 60px;
+      }
+      .feedback-title h2 {
+       text-align: left !important;
+        /* font-size: 32px !important;
+        margin: 0 auto !important;
+        margin-top: 60px !important; */
+        margin: 0px !important;
+    }
+    .accordion-title{
+      margin-bottom: 24px !important;
+    }
+    .accordion-item {
+  
+      width: 70% !important;
+      
+      margin: 0 auto !important;
+      margin-top: 24px !important;
+    }
+    .feedback-left img{
+      margin-top: 40px !important;
+    }
     
   }
   
@@ -28,6 +88,53 @@
   @media (min-width: 768px) and (max-width: 1024px) {
     
     /* CSS */
+    /***********************************
+    Banner section
+    ***********************************/
+    .feedback-left img{
+      margin-top: 40px !important;
+    }
+    
+    .banner-right img{
+      
+      /* margin-top: 70px; */
+      display: table-cell;
+      vertical-align: middle;
+      height: 80vh;
+       
+ 
+   }
+   .banner-title h1{
+
+     font-size: 40px;
+     width: 100%;
+     line-height: 60px;
+     margin-bottom: 16px ;
+ }
+
+    /***********************************
+    Slider One
+    ***********************************/
+
+    .banner-content{
+  
+      height: 300px !important;width: 100%;
+    }
+    .slider-section .owl-carousel .owl-dots  {
+      width: 100%;
+      text-align: center;
+      /* position: absolute; */
+      bottom: -5%;
+      
+      
+    }
+    /***********************************
+ ultimate-section starts HERE-
+***********************************/
+
+
+ 
+
     
   }
   
@@ -39,7 +146,94 @@
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     
     /* CSS */
-    
+
+/***********************************
+    Banner section
+    ***********************************/
+
+    .banner-right img{
+      
+       /* margin-top: 70px; */
+       display: table-cell;
+       vertical-align: middle;
+       height: 80vh;
+        
+  
+    }
+    .banner-title h1{
+
+      font-size: 40px;
+      width: 100%;
+      line-height: 60px;
+      margin-bottom: 16px ;
+  }
+
+/***********************************
+    Slider One
+    ***********************************/
+
+    .banner-content{
+  
+      height: 300px !important;width: 100%;
+    }
+    .slider-section .owl-carousel .owl-dots  {
+      width: 100%;
+      text-align: center;
+      /* position: absolute; */
+      bottom: -5%;
+      
+      
+    }
+
+    /***********************************
+   smart-jackpot-section
+  ***********************************/
+
+
+.jackpot-left h2{
+ padding-right: 0px;
+}
+.jackpot-right p{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 240px;
+  margin-top: 80px;
+  /* padding-left: 40px;
+  padding-right: 30px;
+  color: #616368; */
+}
+
+/***********************************
+ built-section starts HERE-
+***********************************/
+
+
+/***********************************
+ ultimate-section starts HERE-
+***********************************/
+
+
+/* .ultimate-right img{
+  position: absolute !important; 
+  margin-left:0px !important;
+  width: 100%;
+  height: auto;
+} */
+.dis-titles h2{
+  font-size: 32px;
+  text-align: left !important;
+}
+
+.dis-titles p{
+  text-align: left !important;
+  width: 100% !important;
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+  margin: 0px !important;
+}
+
+  
   }
   
   /* 
@@ -185,7 +379,13 @@
 /***********************************
  /* <!--ultimate-section starts HERE--> 
 ***********************************/
-
+/***********************************
+ /* <!--ultimate-section starts HERE--> 
+***********************************/
+.ultimate-right img {
+  position: static;
+  margin-left:0% ;
+}
 
 .success-title h2 {
   width: 100% !important;
@@ -229,14 +429,72 @@
 }
 
 
+/***********************************
+ service-section starts HERE--> 
+***********************************/
+
+
+.service-title h2{
+  
+  
+  font-size: 32px !important;
+  width: 90% !important;
+  margin: 0 auto !important;
+  margin-bottom: 24px !important;
+}
+.service-title p{
+  
+  margin-bottom: 24px !important;
+  width: 95%;
+  
+}
+.service-btn{
+  margin-top: 8px !important;
+  text-align: left !important;
+}
 
 
 
+/********************************************
+          feedback-section-desigon
+********************************************/
 
+.feedback-left img{
+  position: static;
+  margin: 0;
+  
+}
+.feedback-section h2 {
+  
+ 
+ width: 100%;
+}
 
+.dis-titles{
+  margin-bottom: 24px !important;
+}
 
+/********************************************
+          .accordion-section-carousel
+********************************************/
 
+.accordion-title h2 {
+  width: 95% !important;
+  margin: 0 !important;
+  margin-top: 24px !important;
+  font-size: 50px !important;
+ text-align: left !important;
+  
 
+}
+.accordion-title p {
+  width: 100% !important;
+  text-align: left !important;
+  margin-left: 0px !important ;
+  padding-left: 0px !important;
+  
+
+}
 
 
     
@@ -560,7 +818,11 @@
 /***********************************
  /* <!--ultimate-section starts HERE--> 
 ***********************************/
-
+.ultimate-right img , .down-rights img{
+  position: static;
+  margin-left:0% ;
+  
+}
 .ultimate-title h2{
   width: 95% !important;
   margin: 0 auto !important;
@@ -615,7 +877,7 @@
 
 .service-title h2{
   margin: 0 auto !important;
-  text-align: center !important;
+  text-align: center ;
   margin-bottom: 24px !important;
 }
 .service-btn{
@@ -654,9 +916,7 @@
   margin: 0 auto !important;
   text-align: center !important;
 }
-.ultimate-section img{
-  margin-left: 0px !important;
-}
+
 
 
 
@@ -670,37 +930,42 @@
 /********************************************
           feedback-section-desigon
 ********************************************/
-
+/* .feedback-left img{
+  position: static;
+  margin: 0;
+  
+}
 .feedback-title h2{
-  margin: 0 auto !important;
-  text-align: center !important;
-  font-size: 32px !important;
-  margin-top: 60px !important;
+ 
+  text-align: center ;
+  font-size: 32px ;
+  margin: 0 auto ;
+  margin-top: 60px ;
 }
 .feedback-title p{
   width: 95%;
-  margin: 0 auto !important;
-  text-align: center !important;
-  margin-top: 32px !important;
-  margin-bottom: 60px !important;
+  margin: 0 auto ;
+  text-align: center ;
+  margin-top: 32px ;
+  margin-bottom: 60px ;
 }
 
 .r-up{
-  text-align: center !important;
+  text-align: center ;
 }
 .r-up p{
-  width: 95% !important;
-  margin: 0 auto !important;
-  margin-bottom: 40px !important;
+  width: 95% ;
+  margin: 0 auto ;
+  margin-bottom: 40px ;
 }
 .photo img{
-  text-align: center !important;
-  margin: 0 auto !important;
+  text-align: center ;
+  margin: 0 auto ;
 }
 .details{
-  text-align: center !important;
-  margin: 0 auto !important;
-}
+  text-align: center;
+  margin: 0 auto ;
+} */
 
 
 
@@ -710,7 +975,7 @@
 
 .feedback-section .owl-carousel .owl-dots  {
   width: 100%;
-  text-align:center !important;
+  text-align:center ;
   /* position: absolute; */
   bottom:0%;
   
@@ -729,13 +994,13 @@
 .accordion-title p {
   width: 95% !important;
   margin: 0 auto !important;
-  margin-top: 24px !important;
-  margin-bottom: 24px !important;
+  margin-top: 24px ;
+  margin-bottom: 24px;
   
 }
 .accordion-item {
-  margin-left: 0px !important;
-  margin-right: 0px !important;
+  margin-left: 0px ;
+  margin-right: 0px ;
 }
 button.accordion-button.collapsed {
   
@@ -774,22 +1039,22 @@ div.accordion-body{
        
    }
     .dis-titles{
-      text-align: center !important;
+      text-align: center;
     }
     .dis-titles h2{
-      text-align: center !important;
+      text-align: center;
     }
     .dis-titles p{
       width: 95% !important;
       margin: 0 auto !important;
-      text-align: center !important;
+      text-align: center ;
       margin-bottom: 40px !important;
     }
     .download-section .downloads .row .col-md-6 .dis-titles img{
       margin-bottom: 16px !important;
     }
     .down-rights img{
-        
+
         margin-top: 40px;
     }
 
