@@ -21,6 +21,14 @@ p{
     color: #616368;
     
 }
+#scrollUp {
+    
+    bottom: 30px;
+    right: 20px;
+    background-image: url(../images/top.png);
+    height: 38px;
+    width: 38px;
+}
 
 /********************************************
            Navbar-section-desigon
