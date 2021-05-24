@@ -206,7 +206,22 @@ window.addEventListener('scroll' , function (){
 //     }
 // });
 
-
+function btnStyleThree(){
+    var myBtn = document.querySelector("#first-btn");
+    myBtn.style.color = "#fff";
+    myBtn.style.backgroundColor = "#2500f9"
+    myBtn.style.transition = ".9s ease"
+    var myBtnTwo = document.querySelector("#second-btn");
+    myBtnTwo.style.transition = ".9s ease"
+    var serviceDesign = document.querySelector("#plan1");
+    serviceDesign.style.boxShadow = "none";
+    
+    serviceDesign.style.transform = "none";
+    serviceDesign.style.transition = ".9s ease";
+    var serviceDesignTwo = document.querySelector("#plan2");
+    serviceDesignTwo.style.boxShadow = "none";
+    serviceDesignTwo.style.transform = "none";
+}
 
 function btnStyleTwo(){
     var myBtn = document.querySelector("#first-btn");
@@ -239,6 +254,9 @@ function btnStyleOne(){
     serviceDesignTwo.style.boxShadow = "10px 8px 15px lightgray";
     serviceDesignTwo.style.transform = "none";
 }
+
+
+
 
 
 function newStyle(){

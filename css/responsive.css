@@ -8,6 +8,24 @@
     /* CSS */
 
 
+    .menu-design ul li a::before{
+      content: '';
+      transition: .3s ease-in;
+      height: 3px;
+      background-color: #2500f9;
+      
+      width: 0%;
+      position: absolute;
+      bottom: 0%;
+      left: 0%;
+      
+  }
+  .menu-design ul li a:hover::before{
+      width: 100%;
+      transition: .3s ease-in;
+  }
+
+
     .plan-1, .plan-2{
       background-color: #ffffff;
       width: 70%;
